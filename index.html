@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExploreWorld Travel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <a href="#" class="logo">ExploreWorld</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#destinations">Destinations</a>
+            <a href="#hotels">Hotels</a>
+            <a href="#booking">Book Now</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Explore The World</h1>
+            <p>Discover beautiful destinations and unforgettable experiences.</p>
+            <a href="#destinations" class="btn">Explore Destinations</a>
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="section">
+        <h2>Popular Destinations</h2>
+        <p class="section-text">
+            Explore some of the world's most beautiful travel destinations.
+        </p>
+
+        <div class="card-container">
+
+            <div class="card">
+                <img src="images/paris.jpeg" alt="Eiffel Tower in Paris">
+                <div class="card-content">
+                    <h3>Paris, France</h3>
+                    <p>Enjoy the Eiffel Tower, museums, food, and romantic streets.</p>
+                    <a href="#booking" class="small-btn">View Hotels</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/dubai.jpeg" alt="Dubai city">
+                <div class="card-content">
+                    <h3>Dubai, UAE</h3>
+                    <p>Experience luxury shopping, beaches, and amazing skyscrapers.</p>
+                    <a href="#booking" class="small-btn">View Hotels</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/bali.jpeg" alt="Beach in Bali">
+                <div class="card-content">
+                    <h3>Bali, Indonesia</h3>
+                    <p>Relax on beautiful beaches and discover tropical nature.</p>
+                    <a href="#booking" class="small-btn">View Hotels</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Places Section -->
+    <section class="places-section">
+        <h2>Things To Do</h2>
+
+        <div class="places-container">
+            <div class="place">
+                <h3>Visit Famous Places</h3>
+                <p>Discover historical buildings, museums, and cultural landmarks.</p>
+            </div>
+
+            <div class="place">
+                <h3>Enjoy Local Food</h3>
+                <p>Try delicious traditional food from different countries.</p>
+            </div>
+
+            <div class="place">
+                <h3>Relax and Enjoy</h3>
+                <p>Spend peaceful days at beaches, resorts, and natural locations.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hotels Section -->
+    <section id="hotels" class="section">
+        <h2>Featured Hotels</h2>
+
+        <div class="card-container">
+
+            <div class="hotel-card">
+                <img src="images/hotel1.jpeg" alt="Luxury hotel room">
+                <div class="card-content">
+                    <h3>Grand Palace Hotel</h3>
+                    <p>Paris, France</p>
+                    <p class="rating">★★★★★</p>
+                    <p class="price">$150 per night</p>
+                    <a href="#booking" class="small-btn">Book Hotel</a>
+                </div>
+            </div>
+
+            <div class="hotel-card">
+                <img src="images/hotel2.jpeg" alt="Beach hotel">
+                <div class="card-content">
+                    <h3>Ocean View Resort</h3>
+                    <p>Bali, Indonesia</p>
+                    <p class="rating">★★★★☆</p>
+                    <p class="price">$120 per night</p>
+                    <a href="#booking" class="small-btn">Book Hotel</a>
+                </div>
+            </div>
+
+            <div class="hotel-card">
+                <img src="images/hotel3.jpeg" alt="Modern hotel room">
+                <div class="card-content">
+                    <h3>Skyline Hotel</h3>
+                    <p>Dubai, UAE</p>
+                    <p class="rating">★★★★★</p>
+                    <p class="price">$200 per night</p>
+                    <a href="#booking" class="small-btn">Book Hotel</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Booking Form -->
+    <section id="booking" class="booking-section">
+        <h2>Book Your Stay</h2>
+        <p>Choose your preferred destination ,select your dates and book your stay with ease.</p>
+
+        <form class="booking-form">
+
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="Enter your email">
+
+            <label for="destination">Choose Destination</label>
+            <select id="destination">
+                <option>Paris, France</option>
+                <option>Dubai, UAE</option>
+                <option>Bali, Indonesia</option>
+            </select>
+
+            <label for="checkin">Check-in Date</label>
+            <input type="date" id="checkin">
+
+            <label for="checkout">Check-out Date</label>
+            <input type="date" id="checkout">
+
+            <label for="guests">Number of Guests</label>
+            <input type="number" id="guests" min="1" placeholder="Number of guests">
+
+            <button type="submit" class="btn">Submit Booking</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <h3>ExploreWorld</h3>
+        <p>Email: contact@exploreworld.com</p>
+        <p>© 2026 ExploreWorld. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
