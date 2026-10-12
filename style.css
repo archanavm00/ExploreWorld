@@ -261,6 +261,8 @@ footer p {
     }
 }
 .logo img {
-    width: 175px;
-    height: auto;
+    width: 300px;
+    height: 120px;
+    object-fit: contain;
+    display: block;
 } 
